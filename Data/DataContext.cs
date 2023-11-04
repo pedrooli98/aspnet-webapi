@@ -1,3 +1,4 @@
+
 namespace project_tests.Data
 {
     public class DataContext : DbContext
@@ -6,5 +7,7 @@ namespace project_tests.Data
         {
             
         }
+
+        DbSet<User> Users => Set<User>();
     }
 }
